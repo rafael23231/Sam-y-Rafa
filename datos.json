@@ -1,0 +1,30 @@
+{
+  "paciente": {
+    "nombre": "Samir Smith",
+    "edad": "67",
+    "enfermedades": "Diabetes",
+    "telefono": "66747472",
+    "familiar_nombre": "Rafael A",
+    "familiar_telefono": "66305649"
+  },
+  "medicamentos": [
+    {
+      "id": 1,
+      "nombre": "Acetaminofen",
+      "dosis": "500 mg",
+      "horarios": [
+        "13:31"
+      ]
+    }
+  ],
+  "registros": {
+    "2026-07-06|1|13:31": {
+      "estado": "omitida",
+      "hora_confirmacion": null,
+      "familiar_avisado": true,
+      "recordatorio_mostrado": true,
+      "intentos_duplicados": 0
+    }
+  },
+  "siguiente_id": 2
+}
